@@ -1,0 +1,34 @@
+﻿@model aplicacao.ViewModel.ProdutoViewModel
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+<div class="row">
+
+    <fieldset id="div_field_pf">
+        <legend>Dados do Produto</legend>
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-sm-12">
+                <div class="form-group">
+                    @Html.Label("Nome", new { @class = "required" })
+                    @Html.TextBoxFor(m => m.NomeDoProduto, new { @class = "form-control", @id = "nome", maxlength = 80 })
+                    @Html.ValidationMessageFor(m => m.NomeDoProduto, "", new { @class = "form-group has-error" })
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-sm-12">
+                <div class="form-group">
+                    @Html.Label("Quantidade", new { @class = "required" })
+                    @Html.TextBoxFor(m => m.QuantidadeDoProduto, new { @class = "form-control", @id = "quantidade", maxlength = 10 })
+                    @Html.ValidationMessageFor(m => m.QuantidadeDoProduto, "", new { @class = "form-group has-error" })
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-sm-12">
+                <div class="form-group">
+                    @Html.Label("Preço Unitário", new { @class = "required" })
+                    @Html.TextBoxFor(m => m.ValorUnitario, new { @class = "form-control", @id = "preco", maxlength = 10 })
+                    @Html.ValidationMessageFor(m => m.ValorUnitario, "", new { @class = "form-group has-error" })
+                </div>
+            </div>
+        </div>
+
+    </fieldset>    
+</div>
+

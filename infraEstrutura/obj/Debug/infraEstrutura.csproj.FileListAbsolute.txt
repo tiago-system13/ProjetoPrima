@@ -1,0 +1,10 @@
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\bin\Debug\infraEstrutura.dll.config
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\bin\Debug\infraEstrutura.dll
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\bin\Debug\infraEstrutura.pdb
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\bin\Debug\EntityFramework.dll
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\bin\Debug\EntityFramework.xml
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\obj\Debug\infraEstrutura.csprojResolveAssemblyReference.cache
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\obj\Debug\infraEstrutura.dll
+C:\Users\tiago.infor13\documents\visual studio 2015\Projects\ControleDeEstoque\infraEstrutura\obj\Debug\infraEstrutura.pdb

@@ -1,0 +1,17 @@
+﻿@model aplicacao.ViewModel.ClienteViewModel
+@{
+    Layout = "~/Views/Shared/_LayoutForm.cshtml";
+    ViewBag.Titulo = "Novo Cliente";
+    ViewBag.TextoDeBotaoDeSubmissao = "Salvar";
+    ViewBag.Action = "Cadastrar";
+    ViewBag.Controller = "Cliente";
+    ViewBag.Cancelar = "Index";
+    ViewBag.FormId = "formCliente";
+}
+@section JsAdicional {
+    @Scripts.Render("~/Views/Cliente/cliente.js")
+}
+@section Formulario {
+
+    @RenderPage("~/Views/Cliente/FormularioDeCliente.cshtml", Model)
+}
